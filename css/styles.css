@@ -74,6 +74,30 @@ body {
   outline: 0 !important;
 }
 
+.hygge {
+  max-height: 20rem;
+  overflow: hidden;
+}
+.hygge + .hygge {
+  margin-top: 1rem;
+}
+@media (min-width: 768px) {
+  .hygge {
+    max-height: 20rem;
+    overflow: hidden;
+  }
+  .hygge + .hygge {
+    margin-top: 0;
+  }
+}
+.hygge__img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+
 hr {
   box-sizing: content-box;
   height: 0;
@@ -10029,7 +10053,7 @@ hr.light {
 }
 
 .page-section {
-  padding: 8rem 0;
+  padding: 4rem 0;
 }
 
 #mainNav {
