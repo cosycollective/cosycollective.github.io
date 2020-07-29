@@ -10144,10 +10144,12 @@ header.masthead {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
+  height: 100vh;
 }
 header.masthead h1 {
   font-size: 2.25rem;
 }
+
 @media (min-width: 992px) {
   header.masthead {
     height: 100vh;
